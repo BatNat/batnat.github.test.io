@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>DONSON</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<div class="logo__wrap">
+				<img class="logo__img" src="img/logo.png" alt="Логотип" width="200" height="56">
+				<span class="logo__text">производство текстиля для сна</span>
+			</div>
+			<div class="contacts">
+				<span class="contacts__phone">8 (800) 555-35-35</span>
+				<span class="contadcts__text">Отдел по работе с дистрибьюторами</span>
+			</div>
+			<a href="" class="button button__header animated">Заказать звонок</a>
+		</div>
+		<nav class="nav container">
+			<ul class="nav__list">
+				<li class="nav__item"><a class="nav__link nav__link--active" href="#" data-link="header">Главная</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">Зарабатывать с DonSon</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">О компании</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">Продукция и цены</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">Начать сорудничество</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">Аналитика</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">Маркетинг</a></li>
+				<li class="nav__item"><a class="nav__link" href="#" data-link="header">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="hero">
+		<div class="container hero__container">
+			<h1 class="hero__title">Станьте эксклюзивным дистрибьютором DonSon в своем регионе</h1>
+			<div class="hero__banner">
+				<div class="banner__title">и зарабатывайте от 500 тыс. руб. в месяц</div>
+				<div class="banner__subtitle"><strong>на</strong> оптовой продаже текстиля для сна</div>
+				<div class="banner__text--strong">Гарантия выхода на прибыль уже в первый месяц</div>
+				<div class="banner__text">
+					<ul class="advanteges">
+						<li class="advanteges__item">Это возможно, поскольку мы обеспечим Вас текстильной продукцией высокого качества  и 
+						клиентами из Вашего региона, заинтересованных в оптовых закупках небольшими партиями
+						</li>
+						<li class="advanteges__item">
+							Мы поможем Вам собрать или улучшить уже имеющуюся команду, проведем обучение Вас и персонала, научим наращивать объем продаж.
+							С вами будет работать наш персональный менеджер, который поможет Вам в этом
+						</li>
+						<li class="advanteges__item">
+							*Обычно наши дистрибьюторы через 3 месяца становятся 
+							самыми крупными текстильными компаниями в своем регионе и расширяют бизнес на соседние
+						</li>
+					</ul>
+				</div>
+				<div class="banner__link">
+					<a href="#info-block" class="button banner__button animated" >Узнать подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main__title">
+		<div class="container">
+			<h2 class="title">Посмотрите короткое видео</h2>
+			<div class="subtitle">чтобы узнать подробнее о нашем предложение для Дистрибьюторов</div>
+		</div>
+	</section>
+
+	<script>
+		ColorBind("animated");
+
+function ColorBind(className) {
+
+  var ells = document.getElementsByClassName(className);
+
+  var highlightToggle = function() {
+    var all = document.getElementsByClassName(className);
+
+    for (var el1 of all) {
+      el1.classList.toggle("highlight");
+    }
+  }
+
+  for (var el of ells) {
+    el.addEventListener("mouseover", highlightToggle);
+    el.addEventListener("mouseout", highlightToggle);
+  }
+}
+	</script>
+</body>
+</html>
